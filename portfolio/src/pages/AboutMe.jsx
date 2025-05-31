@@ -7,6 +7,7 @@ import graduation from '../assets/graduation.jpeg';
 import selfy from '../assets/selfy.jpeg';
 import YouTubeHoverCard from '../components/YouTubeHoverCard';
 import github_icon from '../assets/GitHub_Invertocat_Dark.png';
+import vt_icon from '../assets/Virginia_Tech_seal.svg.png';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <div className='flex justify-center items-center mt-10 mb-4 text-bold-3l text-5xl uppercase'>
           <h1>Jimmy Li</h1>
         </div>
+        <img src={vt_icon} alt="Virginia Tech logo" className='absolute w-24 right-10 top-5'/>
         <div className='flex justify-center text-1xl'>
           <ul>
                 <ClickButton
