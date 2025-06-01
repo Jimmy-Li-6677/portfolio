@@ -10,7 +10,9 @@ const ClickButton = ({ title, onClick, className }) => {
       navigate('/aboutme');
     } else if (title ==='Portfolio') {
       navigate('/');
-    }else {
+    } else if (title ==='Contact') {
+      navigate('contact');
+    } else {
       onClick?.();
     }
   };

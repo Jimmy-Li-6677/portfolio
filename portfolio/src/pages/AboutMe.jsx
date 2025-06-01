@@ -38,7 +38,11 @@ const Home = () => {
                 onClick={() => console.log("about me clicked")}
                 className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-100 hover:cursor-pointer transition"
               />
-              
+              <ClickButton
+                title="Contact"
+                onClick={() => console.log("contact clicked")}
+                className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-100 hover:cursor-pointer transition"
+              />
           </ul>
         </div>
 
